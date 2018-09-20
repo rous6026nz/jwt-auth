@@ -1,0 +1,22 @@
+{
+  "name": "jwt-auth",
+  "version": "1.0.0",
+  "description": "Sample JWT authentication.",
+  "main": "index.js",
+  "repository": "https://github.com/rous6026nz/jwt-auth.git",
+  "author": "Zaine Kingi <rous6026nz@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "express-jwt": "^5.3.1",
+    "jsonwebtoken": "^8.3.0",
+    "knex": "^0.15.2",
+    "libsodium-wrappers": "^0.7.3"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "nodemon": "^1.18.4",
+    "sqlite3": "^4.0.2"
+  }
+}
