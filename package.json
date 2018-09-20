@@ -6,6 +6,9 @@
   "repository": "https://github.com/rous6026nz/jwt-auth.git",
   "author": "Zaine Kingi <rous6026nz@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon server/index.js"
+  },
   "dependencies": {
     "dotenv": "^6.0.0",
     "express": "^4.16.3",
